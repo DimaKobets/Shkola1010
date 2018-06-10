@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,10 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {           
+        {
+            Stopwatch sw = new Stopwatch();
+
+            
             int size = GetSizeOfArray();           
 
             int[] array = new int[size];
@@ -17,15 +21,19 @@ namespace ConsoleApp1
             FillArray(array);
             Console.Write("\n\nArray: ");
             ShowArray(array);
-
             
+
+            sw.Start();
             SortArray(array);
             Console.Write("\n\nSorted array: ");
             ShowArray(array);
 
             Console.Write("\n\nThe unique number of this array is : ");
             Console.WriteLine(FindUniqueNumber(array));
-           
+
+            sw.Stop();
+            Console.WriteLine("Search time: " + (sw.ElapsedMilliseconds / 1000.0).ToString() + "s.");
+
             Console.ReadLine();
         }
 
