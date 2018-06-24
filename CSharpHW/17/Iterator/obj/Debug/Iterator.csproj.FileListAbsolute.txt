@@ -1,0 +1,10 @@
+D:\Dropbox\CSharp_SBS\Lections\Part3_Extensible_types_C#\17_Collections_Iterator\Demo\Iterator\Iterator\bin\Debug\Iterator.exe.config
+D:\Dropbox\CSharp_SBS\Lections\Part3_Extensible_types_C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\bin\Debug\Iterator.exe.config
+E:\Dropbox\CSharp_SBS\Lections\Part3_Extensible_types_C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\bin\Debug\Iterator.exe.config
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\bin\Debug\Iterator.exe.config
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\bin\Debug\Iterator.exe
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\bin\Debug\Iterator.pdb
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\obj\Debug\Iterator.csprojAssemblyReference.cache
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\obj\Debug\Iterator.exe
+F:\Downloads\Slack\C#\17_Collections_Iterator\Demo\01_Iterator\Iterator\obj\Debug\Iterator.pdb

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<MobileAccount xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Kate</Name>
+  <LastName>Kos</LastName>
+  <BirthDate>1996-12-02T00:00:00</BirthDate>
+  <Email>kate@gmail.com</Email>
+  <Number>3</Number>
+  <PhoneBook>
+    <Contacts>
+      <Name>Dima</Name>
+      <LastName>Kobets</LastName>
+      <BirthDate>1996-12-27T00:00:00</BirthDate>
+      <Email>3fid96@gmail.com</Email>
+      <Number>1</Number>
+    </Contacts>
+    <Contacts>
+      <Name>Weronika</Name>
+      <LastName>Nikolaeva</LastName>
+      <BirthDate>1996-02-12T00:00:00</BirthDate>
+      <Email>nika@gmail.com</Email>
+      <Number>2</Number>
+    </Contacts>
+  </PhoneBook>
+</MobileAccount>
