@@ -22,7 +22,7 @@ namespace ConsoleApp1
             Console.WriteLine("Archiving of " + path +" completed");
         }
 
-        public static void Compression(FileInfo file)
+        private static void Compression(FileInfo file)
         {            
             string directory = file.DirectoryName + "\\" + file.Name.Remove(file.Name.IndexOf('.'));
             Directory.CreateDirectory(directory);
@@ -42,13 +42,13 @@ namespace ConsoleApp1
             Console.WriteLine("Decompression of " + path + " completed");
         }
 
-        public static void Decompression(FileInfo file)
+        private static void Decompression(FileInfo file)
         {
             ZipFile.ExtractToDirectory(file.FullName, file.FullName.Remove(file.FullName.IndexOf('.')) + "Unzipped");
             file.Delete();
         }
 
-        public static List<string> GetAllPases(string path)
+        private static List<string> GetAllPases(string path)
         {
             string[] folders = Directory.GetDirectories(path);
 
@@ -71,7 +71,7 @@ namespace ConsoleApp1
             return files;
         }
 
-        public static List<FileInfo> GetFileInfo(List<string> files)
+        private static List<FileInfo> GetFileInfo(List<string> files)
         {
             List<FileInfo> fileInfoList = new List<FileInfo>();
             foreach (var file in files)
